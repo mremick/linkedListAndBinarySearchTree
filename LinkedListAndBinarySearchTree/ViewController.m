@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Node.h"
+#import "LinkedList.h"
 
 @interface ViewController ()
 
@@ -18,6 +20,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    LinkedList *list = [[LinkedList alloc] init];
+    
+    
+    for (int i = 0; i < 20; i++) {
+        Node *node = [[Node alloc] initWithData:i];
+        [list push:node];
+
+    }
+    
+    [list print];
+
+    Node *returnedNode = [list searchForNode:35];
+    [returnedNode printNode];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -21,6 +21,8 @@
 		3E0C6ECD18BBEC86002F398B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0C6EAF18BBEC86002F398B /* UIKit.framework */; };
 		3E0C6ED518BBEC86002F398B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C6ED318BBEC86002F398B /* InfoPlist.strings */; };
 		3E0C6ED718BBEC86002F398B /* LinkedListAndBinarySearchTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6ED618BBEC86002F398B /* LinkedListAndBinarySearchTreeTests.m */; };
+		3E0C6EE218BBECBC002F398B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EE118BBECBC002F398B /* Node.m */; };
+		3E0C6EE518BBED53002F398B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EE418BBED53002F398B /* LinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		3E0C6ED218BBEC86002F398B /* LinkedListAndBinarySearchTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedListAndBinarySearchTreeTests-Info.plist"; sourceTree = "<group>"; };
 		3E0C6ED418BBEC86002F398B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E0C6ED618BBEC86002F398B /* LinkedListAndBinarySearchTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListAndBinarySearchTreeTests.m; sourceTree = "<group>"; };
+		3E0C6EE018BBECBC002F398B /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		3E0C6EE118BBECBC002F398B /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		3E0C6EE318BBED53002F398B /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		3E0C6EE418BBED53002F398B /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				3E0C6EBD18BBEC86002F398B /* Main.storyboard */,
 				3E0C6EC018BBEC86002F398B /* ViewController.h */,
 				3E0C6EC118BBEC86002F398B /* ViewController.m */,
+				3E0C6EE018BBECBC002F398B /* Node.h */,
+				3E0C6EE118BBECBC002F398B /* Node.m */,
+				3E0C6EE318BBED53002F398B /* LinkedList.h */,
+				3E0C6EE418BBED53002F398B /* LinkedList.m */,
 				3E0C6EC318BBEC86002F398B /* Images.xcassets */,
 				3E0C6EB218BBEC86002F398B /* Supporting Files */,
 			);
@@ -252,6 +262,8 @@
 				3E0C6EC218BBEC86002F398B /* ViewController.m in Sources */,
 				3E0C6EBC18BBEC86002F398B /* AppDelegate.m in Sources */,
 				3E0C6EB818BBEC86002F398B /* main.m in Sources */,
+				3E0C6EE518BBED53002F398B /* LinkedList.m in Sources */,
+				3E0C6EE218BBECBC002F398B /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
