@@ -14,8 +14,10 @@
 
 @property (strong,nonatomic) Node *firstNode;
 
+
 - (void)push:(Node *)node;
 - (Node *)pop;
+
 - (void)print;
 
 - (Node *)searchForNode:(int)nodeData;

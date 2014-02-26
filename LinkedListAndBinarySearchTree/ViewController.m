@@ -10,6 +10,8 @@
 #import "Node.h"
 #import "LinkedList.h"
 #import "BinaryTree.h"
+#import "QuickSorter.h"
+#import "HeapSorter.h"
 
 @interface ViewController ()
 
@@ -22,8 +24,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 //    [self linkedList];
-    [self binaryTree];
-    
+//    [self binaryTree];
+//    [self quickSort];
+    [self heapSort];
     
 }
 
@@ -40,9 +43,11 @@
         
     }
     
+    
+    
     [list print];
     
-    Node *returnedNode = [list searchForNode:35];
+    Node *returnedNode = [list searchForNode:12];
     [returnedNode printNode];
 }
 
@@ -60,6 +65,43 @@
     NSLog(@"Search Result:\n");
     TreeNode *returnedNode = [tree searchValue:5];
     [returnedNode printNode];
+}
+
+- (void) quickSort
+{
+    NSMutableArray * unsortedArray = [NSMutableArray new];
+    for (int i = 0; i < 100; i++) {
+        SortNode * node = [SortNode new];
+        node.data = arc4random() % 100;
+        [unsortedArray addObject:node];
+    }
+    
+    NSLog(@"%@", unsortedArray);
+    
+    NSMutableArray * sortedArray = [QuickSorter sortArray:unsortedArray];
+    
+    
+    NSLog(@"%@", sortedArray);
+}
+
+
+- (void) heapSort
+{
+    NSMutableArray * unsortedArray = [NSMutableArray new];
+    for (int i = 0; i < 100; i++) {
+        SortNode * node = [SortNode new];
+        node.data = arc4random() % 100;
+        [unsortedArray addObject:node];
+    }
+    
+    NSLog(@"%@", unsortedArray);
+    
+    HeapSorter * heapSorter = [HeapSorter new];
+    
+    NSMutableArray * sortedArray = [heapSorter sortArray:unsortedArray];
+    
+    
+    NSLog(@"%@ \n\n count: %d", sortedArray, sortedArray.count);
 }
 
 

@@ -20,12 +20,6 @@
     return self;
 }
 
-- (Node *)newNode:(int)data
-{
-    Node *newNode = [[Node alloc] initWithData:data];
-    
-    return newNode;
-}
 
 - (void)printNodes
 {

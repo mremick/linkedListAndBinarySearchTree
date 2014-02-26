@@ -25,6 +25,9 @@
 		3E0C6EE518BBED53002F398B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EE418BBED53002F398B /* LinkedList.m */; };
 		3E0C6EE918BC1B89002F398B /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EE818BC1B89002F398B /* TreeNode.m */; };
 		3E0C6EEC18BC1B99002F398B /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EEB18BC1B99002F398B /* BinaryTree.m */; };
+		B09CDB3A18BD3A9600D5B36A /* HeapSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = B09CDB3918BD3A9600D5B36A /* HeapSorter.m */; };
+		B09CDB3D18BD3CF400D5B36A /* QuickSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = B09CDB3C18BD3CF400D5B36A /* QuickSorter.m */; };
+		B09CDB4018BD429100D5B36A /* SortNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B09CDB3F18BD429100D5B36A /* SortNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,12 @@
 		3E0C6EE818BC1B89002F398B /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		3E0C6EEA18BC1B99002F398B /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		3E0C6EEB18BC1B99002F398B /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		B09CDB3818BD3A9600D5B36A /* HeapSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSorter.h; sourceTree = "<group>"; };
+		B09CDB3918BD3A9600D5B36A /* HeapSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapSorter.m; sourceTree = "<group>"; };
+		B09CDB3B18BD3CF400D5B36A /* QuickSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSorter.h; sourceTree = "<group>"; };
+		B09CDB3C18BD3CF400D5B36A /* QuickSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSorter.m; sourceTree = "<group>"; };
+		B09CDB3E18BD429100D5B36A /* SortNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortNode.h; sourceTree = "<group>"; };
+		B09CDB3F18BD429100D5B36A /* SortNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,11 +138,17 @@
 				3E0C6EBD18BBEC86002F398B /* Main.storyboard */,
 				3E0C6EC018BBEC86002F398B /* ViewController.h */,
 				3E0C6EC118BBEC86002F398B /* ViewController.m */,
-				3E0C6EE018BBECBC002F398B /* Node.h */,
+				B09CDB3818BD3A9600D5B36A /* HeapSorter.h */,
+				B09CDB3918BD3A9600D5B36A /* HeapSorter.m */,
+				B09CDB3B18BD3CF400D5B36A /* QuickSorter.h */,
+				B09CDB3C18BD3CF400D5B36A /* QuickSorter.m */,
 				3E0C6EE118BBECBC002F398B /* Node.m */,
+				3E0C6EE018BBECBC002F398B /* Node.h */,
 				3E0C6EE318BBED53002F398B /* LinkedList.h */,
 				3E0C6EE418BBED53002F398B /* LinkedList.m */,
 				3E0C6EE718BC1B89002F398B /* TreeNode.h */,
+				B09CDB3E18BD429100D5B36A /* SortNode.h */,
+				B09CDB3F18BD429100D5B36A /* SortNode.m */,
 				3E0C6EE818BC1B89002F398B /* TreeNode.m */,
 				3E0C6EEA18BC1B99002F398B /* BinaryTree.h */,
 				3E0C6EEB18BC1B99002F398B /* BinaryTree.m */,
@@ -272,7 +287,10 @@
 				3E0C6EC218BBEC86002F398B /* ViewController.m in Sources */,
 				3E0C6EBC18BBEC86002F398B /* AppDelegate.m in Sources */,
 				3E0C6EB818BBEC86002F398B /* main.m in Sources */,
+				B09CDB4018BD429100D5B36A /* SortNode.m in Sources */,
 				3E0C6EE518BBED53002F398B /* LinkedList.m in Sources */,
+				B09CDB3D18BD3CF400D5B36A /* QuickSorter.m in Sources */,
+				B09CDB3A18BD3A9600D5B36A /* HeapSorter.m in Sources */,
 				3E0C6EE218BBECBC002F398B /* Node.m in Sources */,
 				3E0C6EEC18BC1B99002F398B /* BinaryTree.m in Sources */,
 				3E0C6EE918BC1B89002F398B /* TreeNode.m in Sources */,
@@ -484,6 +502,7 @@
 				3E0C6EDC18BBEC86002F398B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E0C6EDD18BBEC86002F398B /* Build configuration list for PBXNativeTarget "LinkedListAndBinarySearchTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +511,7 @@
 				3E0C6EDF18BBEC86002F398B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

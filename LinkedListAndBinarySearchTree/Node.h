@@ -15,8 +15,6 @@
 
 - (id)initWithData:(int)data;
 
-- (Node *)newNode:(int)data;
-
 - (void)printNodes;
 
 - (void)printNode;
