@@ -25,6 +25,8 @@
 		3E0C6EE518BBED53002F398B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EE418BBED53002F398B /* LinkedList.m */; };
 		3E0C6EE918BC1B89002F398B /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EE818BC1B89002F398B /* TreeNode.m */; };
 		3E0C6EEC18BC1B99002F398B /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EEB18BC1B99002F398B /* BinaryTree.m */; };
+		3EC4F34F18BD424100E80C64 /* QuickSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4F34E18BD424100E80C64 /* QuickSorter.m */; };
+		3EC4F35218BD54C800E80C64 /* HeapSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4F35118BD54C800E80C64 /* HeapSorter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		3E0C6EE818BC1B89002F398B /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		3E0C6EEA18BC1B99002F398B /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		3E0C6EEB18BC1B99002F398B /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		3EC4F34D18BD424100E80C64 /* QuickSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSorter.h; sourceTree = "<group>"; };
+		3EC4F34E18BD424100E80C64 /* QuickSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSorter.m; sourceTree = "<group>"; };
+		3EC4F35018BD54C800E80C64 /* HeapSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSorter.h; sourceTree = "<group>"; };
+		3EC4F35118BD54C800E80C64 /* HeapSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapSorter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,10 @@
 				3E0C6EE818BC1B89002F398B /* TreeNode.m */,
 				3E0C6EEA18BC1B99002F398B /* BinaryTree.h */,
 				3E0C6EEB18BC1B99002F398B /* BinaryTree.m */,
+				3EC4F34D18BD424100E80C64 /* QuickSorter.h */,
+				3EC4F34E18BD424100E80C64 /* QuickSorter.m */,
+				3EC4F35018BD54C800E80C64 /* HeapSorter.h */,
+				3EC4F35118BD54C800E80C64 /* HeapSorter.m */,
 				3E0C6EC318BBEC86002F398B /* Images.xcassets */,
 				3E0C6EB218BBEC86002F398B /* Supporting Files */,
 			);
@@ -273,9 +283,11 @@
 				3E0C6EBC18BBEC86002F398B /* AppDelegate.m in Sources */,
 				3E0C6EB818BBEC86002F398B /* main.m in Sources */,
 				3E0C6EE518BBED53002F398B /* LinkedList.m in Sources */,
+				3EC4F34F18BD424100E80C64 /* QuickSorter.m in Sources */,
 				3E0C6EE218BBECBC002F398B /* Node.m in Sources */,
 				3E0C6EEC18BC1B99002F398B /* BinaryTree.m in Sources */,
 				3E0C6EE918BC1B89002F398B /* TreeNode.m in Sources */,
+				3EC4F35218BD54C800E80C64 /* HeapSorter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				3E0C6EDC18BBEC86002F398B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E0C6EDD18BBEC86002F398B /* Build configuration list for PBXNativeTarget "LinkedListAndBinarySearchTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				3E0C6EDF18BBEC86002F398B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
