@@ -25,6 +25,8 @@
 		3E0C6EE518BBED53002F398B /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EE418BBED53002F398B /* LinkedList.m */; };
 		3E0C6EE918BC1B89002F398B /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EE818BC1B89002F398B /* TreeNode.m */; };
 		3E0C6EEC18BC1B99002F398B /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6EEB18BC1B99002F398B /* BinaryTree.m */; };
+		B02319B718BF0E9B00E2F03C /* HashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B02319B618BF0E9B00E2F03C /* HashTable.m */; };
+		B02319BA18BF0EC600E2F03C /* HashBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = B02319B918BF0EC600E2F03C /* HashBucket.m */; };
 		B09CDB3A18BD3A9600D5B36A /* HeapSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = B09CDB3918BD3A9600D5B36A /* HeapSorter.m */; };
 		B09CDB3D18BD3CF400D5B36A /* QuickSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = B09CDB3C18BD3CF400D5B36A /* QuickSorter.m */; };
 		B09CDB4018BD429100D5B36A /* SortNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B09CDB3F18BD429100D5B36A /* SortNode.m */; };
@@ -68,6 +70,10 @@
 		3E0C6EE818BC1B89002F398B /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		3E0C6EEA18BC1B99002F398B /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		3E0C6EEB18BC1B99002F398B /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		B02319B518BF0E9B00E2F03C /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		B02319B618BF0E9B00E2F03C /* HashTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTable.m; sourceTree = "<group>"; };
+		B02319B818BF0EC600E2F03C /* HashBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashBucket.h; sourceTree = "<group>"; };
+		B02319B918BF0EC600E2F03C /* HashBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashBucket.m; sourceTree = "<group>"; };
 		B09CDB3818BD3A9600D5B36A /* HeapSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSorter.h; sourceTree = "<group>"; };
 		B09CDB3918BD3A9600D5B36A /* HeapSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapSorter.m; sourceTree = "<group>"; };
 		B09CDB3B18BD3CF400D5B36A /* QuickSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSorter.h; sourceTree = "<group>"; };
@@ -140,6 +146,10 @@
 				3E0C6EC118BBEC86002F398B /* ViewController.m */,
 				B09CDB3818BD3A9600D5B36A /* HeapSorter.h */,
 				B09CDB3918BD3A9600D5B36A /* HeapSorter.m */,
+				B02319B518BF0E9B00E2F03C /* HashTable.h */,
+				B02319B618BF0E9B00E2F03C /* HashTable.m */,
+				B02319B818BF0EC600E2F03C /* HashBucket.h */,
+				B02319B918BF0EC600E2F03C /* HashBucket.m */,
 				B09CDB3B18BD3CF400D5B36A /* QuickSorter.h */,
 				B09CDB3C18BD3CF400D5B36A /* QuickSorter.m */,
 				3E0C6EE118BBECBC002F398B /* Node.m */,
@@ -284,10 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02319B718BF0E9B00E2F03C /* HashTable.m in Sources */,
 				3E0C6EC218BBEC86002F398B /* ViewController.m in Sources */,
 				3E0C6EBC18BBEC86002F398B /* AppDelegate.m in Sources */,
 				3E0C6EB818BBEC86002F398B /* main.m in Sources */,
 				B09CDB4018BD429100D5B36A /* SortNode.m in Sources */,
+				B02319BA18BF0EC600E2F03C /* HashBucket.m in Sources */,
 				3E0C6EE518BBED53002F398B /* LinkedList.m in Sources */,
 				B09CDB3D18BD3CF400D5B36A /* QuickSorter.m in Sources */,
 				B09CDB3A18BD3A9600D5B36A /* HeapSorter.m in Sources */,

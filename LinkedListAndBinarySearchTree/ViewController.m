@@ -88,9 +88,9 @@
 - (void) heapSort
 {
     NSMutableArray * unsortedArray = [NSMutableArray new];
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 10; i++) {
         SortNode * node = [SortNode new];
-        node.data = arc4random() % 100;
+        node.data = arc4random() % 10;
         [unsortedArray addObject:node];
     }
     
