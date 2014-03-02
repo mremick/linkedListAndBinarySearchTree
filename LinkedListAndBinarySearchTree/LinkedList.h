@@ -13,9 +13,15 @@
 
 
 @property (strong,nonatomic) Node *firstNode;
+@property (nonatomic) NSInteger count;
 
 
 - (void)push:(Node *)node;
+- (void) pushList: (LinkedList *) list;
+
+- (void) addNode: (Node *) node;
+- (void) addList: (LinkedList *) list;
+
 - (Node *)pop;
 
 - (void)print;

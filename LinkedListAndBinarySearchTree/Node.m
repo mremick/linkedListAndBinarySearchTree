@@ -46,7 +46,9 @@
     }
 }
 
-
+- (NSString *) description {
+    return [NSString stringWithFormat:@"%d", self.data];
+}
 
 
 @end

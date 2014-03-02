@@ -12,6 +12,8 @@
 #import "BinaryTree.h"
 #import "QuickSorter.h"
 #import "HeapSorter.h"
+#import "RadixSorter.h"
+#import "MergeSorter.h"
 
 @interface ViewController ()
 
@@ -26,7 +28,9 @@
 //    [self linkedList];
 //    [self binaryTree];
 //    [self quickSort];
-    [self heapSort];
+//    [self heapSort];
+//    [self radixSort];
+    [self mergeSort];
     
 }
 
@@ -104,6 +108,42 @@
     NSLog(@"%@ \n\n count: %d", sortedArray, sortedArray.count);
 }
 
+- (void) radixSort
+{
+    NSMutableArray * unsortedArray = [NSMutableArray new];
+    for (int i = 0; i < 100; i++) {
+        Node * node = [Node new];
+        node.data = arc4random() % 1000;
+        [unsortedArray addObject:node];
+    }
+    
+    NSLog(@"%@", unsortedArray);
+    
+    RadixSorter * radixSorter = [RadixSorter new];
+    
+    NSMutableArray * sortedArray = [radixSorter sortArray:unsortedArray];
+    
+    
+    NSLog(@"%@ \n\n count: %d", sortedArray, sortedArray.count);
+}
+
+- (void) mergeSort
+{
+    NSMutableArray * unsortedArray = [NSMutableArray new];
+    for (int i = 0; i < 100; i++) {
+        SortNode * node = [SortNode new];
+        node.data = arc4random() % 100;
+        [unsortedArray addObject:node];
+    }
+    
+    NSLog(@"%@", unsortedArray);
+    
+    MergeSorter * mergeSorter = [MergeSorter new];
+    
+    NSMutableArray * sortedArray = [mergeSorter sortArray:unsortedArray];
+    
+    NSLog(@"%@ \n\n count: %d", sortedArray, sortedArray.count);
+}
 
 - (void)didReceiveMemoryWarning
 {
